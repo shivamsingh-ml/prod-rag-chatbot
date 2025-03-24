@@ -1,2 +1,2 @@
-# Production-ready Retrieval-Augmented Generation Chatbot
+# Production-ready RAG Chatbot
 ![Diagram](assets/Chatbot_Architecture.svg)
