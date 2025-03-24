@@ -1,2 +1,2 @@
 # Production-ready RAG Chatbot
-![Diagram](assets/Chatbot_Architecture.svg)
+![Diagram](assets/Chatbot_Architecture.drawio.svg)
