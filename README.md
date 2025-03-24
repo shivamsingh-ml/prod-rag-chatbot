@@ -7,10 +7,10 @@ A full-stack Retrieval-Augmented Generation (RAG) chatbot designed for productio
 ## 📸 Architecture Overview
 
 ### 🧱 System Architecture
-![Architecture](./Architecture.drawio.svg)
+![Architecture](assets/Architecture.drawio.svg)
 
 ### 🔄 Flow Diagram
-![Flow](./Flow_Diagram.drawio.svg)
+![Flow](assets/Flow_Diagram.drawio.svg)
 
 ---
 
