@@ -1,2 +1,1 @@
-# prod-rag-chatbot
-Production-ready Retrieval-Augmented Generation Chatbot
+# Production-ready Retrieval-Augmented Generation Chatbot
