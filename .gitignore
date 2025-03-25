@@ -1,0 +1,6 @@
+.venv/
+.env
+
+# Ignore Qdrant DB content but keep folder
+qdrant_data/*
+!qdrant_data/.gitkeep

@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "frontend"
+version = "0.1.0"
+description = "Streamlit frontend for RAG"
+authors = ["Shivam Singh"]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+streamlit = "^1.31.1"
+requests = "^2.31.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
