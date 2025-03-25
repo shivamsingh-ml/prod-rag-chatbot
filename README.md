@@ -4,9 +4,13 @@ Production-ready RAG Chatbot is a fully containerized, orchestrated application 
 
 ---
 
-## 📸 Microservices Architecture Overview
+## 📽 Demo
 
-### 🧱 System Architecture
+[![Watch the demo](https://github.com/user-attachments/assets/3044c441-0a5b-4dd8-a112-5cbe13b84365)
+
+---
+
+### 🧱 Microservices Architecture Overview
 ![Architecture](assets/Architecture.drawio.svg)
 
 ### 🔄 Flow Diagram
