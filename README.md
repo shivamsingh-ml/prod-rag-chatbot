@@ -10,14 +10,6 @@ https://github.com/user-attachments/assets/3044c441-0a5b-4dd8-a112-5cbe13b84365
 
 ---
 
-### 🧱 Microservices Architecture Overview
-![Architecture](assets/Architecture.drawio.svg)
-
-### 🔄 Flow Diagram
-![Flow](assets/Flow_Diagram.drawio.svg)
-
----
-
 ## 📁 Project Structure
 
 ```text
@@ -41,6 +33,14 @@ prod-rag-chatbot/
 ├── docker-compose.yml              # Orchestrates frontend, backend, and Qdrant containers
 └── .venv/                          # Python virtual environment
 ```
+
+---
+
+### 🧱 Microservices Architecture Overview
+![Architecture](assets/Architecture.drawio.svg)
+
+### 🔄 Flow Diagram
+![Flow](assets/Flow_Diagram.drawio.svg)
 
 ---
 
