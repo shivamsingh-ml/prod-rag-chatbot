@@ -1,6 +1,5 @@
 # 🧠 Production-ready RAG Chatbot
-
-A full-stack Retrieval-Augmented Generation (RAG) chatbot designed for production deployment. It combines the power of LLMs with a custom vector-based retrieval layer using Qdrant, all wrapped with a clean Streamlit interface.
+Production-ready RAG Chatbot is an end-to-end, containerized application that brings Retrieval-Augmented Generation (RAG) into real-world use cases. It enables users to upload documents (PDFs), ask natural language questions, and receive precise, context-aware answers — all powered by cutting-edge LLMs and vector search. With a modular FastAPI backend, a sleek Streamlit frontend, and a powerful Qdrant vector store, this chatbot is built for scalability, extensibility, and production deployment.
 
 ---
 
@@ -17,13 +16,14 @@ A full-stack Retrieval-Augmented Generation (RAG) chatbot designed for productio
 ## 📁 Project Structure
 
 ```text
-CHATBOT/
+prod-rag-chatbot/
 ├── backend/                        # Backend logic for RAG pipeline
 │   ├── main.py                     # FastAPI endpoints for PDF upload, chat, session cleanup
 │   ├── embedding_utils.py          # Handles embedding documents & uploading to Qdrant
 │   ├── pdf_utils.py                # Extracts and chunks text from PDFs
 │   ├── qa_utils.py                 # Builds QA chain using HuggingFace LLM + Qdrant retriever
 │   ├── Dockerfile
+│   ├── .env                        # Backend config (API keys, host info)
 │   └── pyproject.toml              # Poetry dependencies
 │
 ├── frontend/                       # Streamlit UI for uploading, chatting, and ending session
@@ -32,7 +32,6 @@ CHATBOT/
 │   └── pyproject.toml              # Poetry dependencies
 │
 ├── qdrant_data/                    # Persistent Qdrant volume for storing vectors
-├── .env                            # Backend config (API keys, host info)
 ├── .gitignore
 ├── docker-compose.yml              # Orchestrates frontend, backend, and Qdrant containers
 └── .venv/                          # Python virtual environment
@@ -58,7 +57,7 @@ CHATBOT/
 ### 1. Clone the Repo
 
 ```bash
-git clone https://github.com/yourusername/production-rag-chatbot.git
+git clone https://github.com/shivamsingh-ml/production-rag-chatbot.git
 cd production-rag-chatbot
 ```
 
@@ -67,7 +66,6 @@ cd production-rag-chatbot
 Create a `.env` file in `backend/`:
 
 ```env
-OPENAI_API_KEY=your_openai_key
 HUGGINGFACEHUB_API_TOKEN=your_huggingface_key
 QDRANT_HOST=qdrant
 QDRANT_PORT=6333
@@ -179,9 +177,3 @@ This project is licensed under the [MIT License](LICENSE).
 
 ---
 
-## 🙌 Acknowledgements
-
-- OpenAI & Hugging Face for LLMs  
-- Qdrant for blazing-fast vector search  
-- Streamlit for effortless UI  
-- LangChain for orchestrating RAG pipelines
