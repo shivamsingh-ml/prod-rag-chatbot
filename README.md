@@ -1,6 +1,6 @@
-# 🧠 Production-ready RAG Chatbot
+# 🧠 RAG Chatbot
 
-Ready for production  RAG  Chatbot is an orchestrated, completely containerized application that makes it simple to integrate Retrieval Augmented Generation (RAG) into production environments. Constructed using Docker and Docker Compose, it integrates a Qdrant vector database, Streamlit frontend, and FastAPI backend into a modular microservice architecture. In a stable, scalable, and replicable development environment, users may upload PDF documents, query them using natural language, and get context-rich responses driven by Hugging Face LLMs.
+RAG  Chatbot is an orchestrated, completely containerized application that makes it simple to integrate Retrieval Augmented Generation (RAG) into production environments. Constructed using Docker and Docker Compose, it integrates a Qdrant vector database, Streamlit frontend, and FastAPI backend into a modular microservice architecture. In a stable, scalable, and replicable development environment, users may upload PDF documents, query them using natural language, and get context-rich responses driven by Hugging Face LLMs.
 
 ---
 
@@ -13,7 +13,7 @@ https://github.com/user-attachments/assets/3044c441-0a5b-4dd8-a112-5cbe13b84365
 ## 📁 Project Structure
 
 ```text
-prod-rag-chatbot/
+rag-chatbot/
 ├── backend/                        # Backend logic for RAG pipeline
 │   ├── main.py                     # FastAPI endpoints for PDF upload, chat, session cleanup
 │   ├── embedding_utils.py          # Handles embedding documents & uploading to Qdrant
